@@ -1,3 +1,3 @@
-FROM httpd:2.4
+FROM httpd
 WORKDIR /usr/local/apache2/htdocs/
-COPY  ./devops/   /usr/local/apache2/htdocs/kamal/
+COPY  /var/lib/jenkins/workspace/kamal/devops/   /usr/local/apache2/htdocs/kamal/
